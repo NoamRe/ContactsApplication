@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ContactsApplication</string>
+    <string name="contacts_application">Contacts Application</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="contacts">Contacts:</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_type">Phone Type</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="email">Email</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="delete">Delete</string>
+    <string name="gender">Gender</string>
+    <string name="press_on_a_contact_to_see_more_details_edit_or_delete">Press on a contact to see more details, edit, or delete.</string>
+</resources>
