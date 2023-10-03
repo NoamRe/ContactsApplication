@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <CheckBox
+        android:id="@+id/checkboxFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/first_name" />
+
+    <CheckBox
+        android:id="@+id/checkboxLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/last_name" />
+
+    <CheckBox
+        android:id="@+id/checkboxGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/gender" />
+
+    <CheckBox
+        android:id="@+id/checkboxPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/phone_number" />
+
+    <CheckBox
+        android:id="@+id/checkboxPhoneType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_type" />
+
+    <CheckBox
+        android:id="@+id/checkboxAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address" />
+
+    <CheckBox
+        android:id="@+id/checkboxCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/city" />
+
+    <CheckBox
+        android:id="@+id/checkboxEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email" />
+
+    <CheckBox
+        android:id="@+id/checkboxDateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_of_birth" />
+
+    <Button
+        android:id="@+id/buttonSubmitDisplayDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+
+</LinearLayout>

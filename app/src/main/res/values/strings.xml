@@ -19,5 +19,6 @@
     <string name="back">Back</string>
     <string name="delete">Delete</string>
     <string name="gender">Gender</string>
-    <string name="press_on_a_contact_to_see_more_details_edit_or_delete">Press on a contact to see more details, edit, or delete.</string>
+    <string name="display_settings">Display Settings</string>
+    <string name="press_on_a_contact_to_see_more_details_edit_or_delete_nscroll_horizontally_or_vertically_if_needed">Press on a contact to see more details, edit, or delete.\nScroll horizontally or vertically if needed.</string>
 </resources>

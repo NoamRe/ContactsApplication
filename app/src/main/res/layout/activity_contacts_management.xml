@@ -31,22 +31,34 @@
         android:id="@+id/buttonAddContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
         android:layout_marginBottom="32dp"
         android:text="@string/add_contact"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textViewContactsManagementSubTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/press_on_a_contact_to_see_more_details_edit_or_delete"
+        android:text="@string/press_on_a_contact_to_see_more_details_edit_or_delete_nscroll_horizontally_or_vertically_if_needed"
         app:layout_constraintBottom_toTopOf="@+id/recyclerViewContactsList"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewContactsManagementTitle" />
+
+    <Button
+        android:id="@+id/buttonDisplaySettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/display_settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonAddContact" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
